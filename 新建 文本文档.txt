@@ -1,0 +1,43 @@
+# 创建 Word 应用程序对象
+$word=New-Object -ComObject Word.Application
+
+# 打开指定的 Word 文档
+$docPath="D:\_SHTU_\2324_summer\social_practise\Social_practise-group_of_teaching\outline_LinXY_RenTM\PE_LinXY\PE_LinXiyuan.docx"
+$pdfPath="D:\_SHTU_\2324_summer\social_practise\Social_practise-group_of_teaching\outline_LinXY_RenTM\PE_LinXY\PE_LinXiyuan.pdf"
+$doc=$word.Documents.Open($docPath)
+
+# 保存为 PDF 格式
+$doc.SaveAs([ref] $pdfPath, [ref] 17)
+
+# 关闭文档
+$doc.Close()
+
+# 退出 Word 应用程序
+$word.Quit()
+
+# 释放 COM 对象
+[System.Runtime.Interopservices.Marshal]::ReleaseComObject($word) | Out-Null
+
+
+
+
+
+# 创建 Word 应用程序对象
+$word=New-Object -ComObject Word.Application
+
+# 打开指定的 Word 文档
+$docPath="D:\_SHTU_\2324_summer\social_practise\Social_practise-group_of_teaching\outline_LinXY_RenTM\PE_RenTM\PE_RenTianming.docx"
+$pdfPath="D:\_SHTU_\2324_summer\social_practise\Social_practise-group_of_teaching\outline_LinXY_RenTM\PE_RenTM\PE_RenTianming.pdf"
+$doc=$word.Documents.Open($docPath)
+
+# 保存为 PDF 格式
+$doc.SaveAs([ref] $pdfPath, [ref] 17)
+
+# 关闭文档
+$doc.Close()
+
+# 退出 Word 应用程序
+$word.Quit()
+
+# 释放 COM 对象
+[System.Runtime.Interopservices.Marshal]::ReleaseComObject($word) | Out-Null
