@@ -1,5 +1,9 @@
 # Social practise : THE OUTLINES OF GROUP OF TEACHING
 
-Updated the course outlines of menbers of group.Structure of files are built according to names and courses.
+* Update courses outlines,courses PPT or courses contexts of members.
 
-Operated by KPH.
+* Update the team`s budget of teaching aid.
+
+* Update the schedule and school timetable of social practise.
+
+###### Operated by KPH.
