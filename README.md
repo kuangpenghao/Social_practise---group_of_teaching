@@ -37,6 +37,6 @@ ___
 
   * others\Analyze_for_teaching
      * others\Analyze_for_teaching\test.md(pdf)：我们的评教问题
-     * others\Analyze_for_teaching\analysis.md(pdf)：我们基于学生上交的评教问题回答情况做出的原始数据如实整理、基于原始数据的加工处理（如：学生反向最好的几门课排序等）
+     * others\Analyze_for_teaching\analysis.md(pdf)：我们基于学生上交的评教问题回答情况做出的原始数据如实整理、基于原始数据的加工处理（如：学生反响最好的几门课排序等）
      * others\Analyze_for_teaching\投票数据及原始结果.md(pdf)：内容为analysis文档的部分截取——评教问题一的原始数据及加工处理部分
      * others\Analyze_for_teaching\专项分析.md(pdf)：内容为analysis文档的部分截取——评教问题二的原始数据及加工处理部分
